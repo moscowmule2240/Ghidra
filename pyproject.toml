@@ -1,0 +1,18 @@
+[project]
+name = "ghidramcp"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "moscowmule2240",email = "moscowmule2240@users.noreply.github.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "mcp (==1.5.0)",
+    "requests (==2.32.3)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
